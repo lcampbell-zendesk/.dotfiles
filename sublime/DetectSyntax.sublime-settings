@@ -1,0 +1,11 @@
+
+{
+	"syntaxes": [
+		{
+		"name": "Markdown",
+			"rules": [
+				{"file_name": ".*\\.interview$"}
+			]
+		}
+	]
+}
