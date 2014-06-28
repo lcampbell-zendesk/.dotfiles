@@ -27,6 +27,7 @@
 [core]
   	editor = vi 
   	excludesfile = ~/.gitignore_global
+	pager = less -r
   
 [user]
 	name = Daniel Bogan
