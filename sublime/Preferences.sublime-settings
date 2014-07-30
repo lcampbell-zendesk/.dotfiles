@@ -1,6 +1,5 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
 	"font_face": "Source Code Pro",
 	"font_size": 14.0,
 	"ignored_packages":
@@ -8,7 +7,6 @@
 		"Vintage"
 	],
 	"tab_size": 2,
-	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }
