@@ -1,9 +1,10 @@
 #!/usr/bin/env sh
 
-ln -sf ~/.dotfiles/zsh/config ~/.zshrc
-ln -sf ~/.dotfiles/vim/config ~/.vimrc
+ln -sf ~/.dotfiles/.zshrc ~/
+ln -sf ~/.dotfiles/.vimrc ~/
+ln -sf ~/.dotfiles/vim ~/.vim
 
-ln -sf ~/.dotfiles/git/config ~/.gitconfig
-ln -sf ~/.dotfiles/git/global_ignores ~/.gitignore_global
+ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/.dotfiles/.gitignore_global ~/
 
 ln -sf ~/.dotfiles/sublime ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
