@@ -4,6 +4,8 @@ HISTSIZE=100
 HISTFILE=~/.zsh_history
 SAVEHIST=100
 
+export PATH="/usr/local/bin:$PATH"
+
 autoload -U compinit
 autoload -U zstyle+
 
@@ -20,6 +22,3 @@ fpath=($fpath ~/.zsh)
 alias ls='ls -G'
 
 setopt HIST_IGNORE_DUPS
-
-autoload flup
-autoload ytunnel
