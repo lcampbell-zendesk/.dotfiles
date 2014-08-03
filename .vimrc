@@ -13,3 +13,4 @@ set ignorecase
 set smartcase
 
 syntax enable
+colorscheme molokai
