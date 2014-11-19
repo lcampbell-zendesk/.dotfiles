@@ -1,36 +1,36 @@
 [alias]
-	co = checkout
-	st = status
-	ci = commit
+  co = checkout
+  st = status
+  ci = commit
 
 [color]
-	branch = auto
-	diff = auto
-	status = auto
+  branch = auto
+  diff = auto
+  status = auto
 
 [color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
+  current = yellow reverse
+  local = yellow
+  remote = green
 
 [color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
 
 [color "status"]
-	added = yellow
-	changed = green
-	untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
 
 [core]
-  	editor = vi 
-  	excludesfile = ~/.gitignore_global
-	pager = less -r
+  editor = /usr/bin/vi 
+  excludesfile = ~/.gitignore_global
+  pager = less -r
   
 [user]
-	name = Daniel Bogan
-	email = d@waferbaby.com
+  name = Daniel Bogan
+  email = d@waferbaby.com
 [push]
-	default = matching
+  default = matching
