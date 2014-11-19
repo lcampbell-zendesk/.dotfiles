@@ -1,3 +1,3 @@
 {
-	"cmd": ["/Volumes/Flickr/flickrTools/general/push_svn.rb"]
+	"cmd": ["/Volumes/Flickr/general/push.rb"]
 }
