@@ -1,3 +1,4 @@
 [
-	{ "keys": ["super+shift+s"], "command": "build" }
+  { "keys": ["super+shift+s"], "command": "build" },
+  { "keys": ["super+\\"], "command": "permute_lines", "args": {"operation": "shuffle"}}
 ]
