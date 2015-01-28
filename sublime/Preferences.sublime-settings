@@ -1,13 +1,15 @@
 {
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/Encounters/Encounters (Dark).tmTheme",
-	"font_face": "Source Code Pro",
-	"font_size": 14.0,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"word_wrap": false
+  "color_scheme": "Packages/Encounters/Encounters (Dark).tmTheme",
+  "font_face": "Source Code Pro",
+  "font_size": 14,
+  "bold_folder_labels": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "word_wrap": false,
+
+  "ignored_packages":
+  [
+    "Vintage",
+    "Markdown"
+  ]
 }
