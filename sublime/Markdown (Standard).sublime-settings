@@ -1,14 +1,15 @@
 {
+	"auto_match_enabled": true,
 	"color_scheme": "Packages/Encounters/Encounters (Dark).tmTheme",
-
+	"draw_centered": true,
+	"extensions":
+	[
+		"interview"
+	],
+	"line_numbers": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
-	"auto_match_enabled": true,
-
-	"draw_centered": true,
 	"word_wrap": true,
-	"wrap_width": 120,
-
-	"line_numbers": true,
+	"wrap_width": 120
 }
