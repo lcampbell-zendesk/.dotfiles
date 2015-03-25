@@ -1,15 +1,15 @@
 {
-  "color_scheme": "Packages/Encounters/Encounters (Dark).tmTheme",
-  "font_face": "Source Code Pro",
-  "font_size": 14,
-  "bold_folder_labels": true,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "word_wrap": false,
-
-  "ignored_packages":
-  [
-    "Vintage",
-    "Markdown"
-  ]
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/super (SL).tmTheme",
+	"font_face": "Source Code Pro",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Markdown"
+	],
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
 }
