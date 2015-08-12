@@ -1,16 +1,20 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/super (SL).tmTheme",
+	"color_scheme": "Packages/Base16/base16-monokai.dark.tmTheme",
 	"font_face": "Source Code Pro",
 	"font_size": 14,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"save_on_focus_lost": true,
+	"spacegray_sidebar_font_small": true,
+	"spacegray_sidebar_tree_small": true,
+	"spacegray_tabs_font_small": true,
+	"spacegray_tabs_normal": true,
 	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
