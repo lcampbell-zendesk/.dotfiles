@@ -1,6 +1,6 @@
 {
 	"auto_match_enabled": true,
-	"color_scheme": "Packages/User/SublimeLinter/super (SL).tmTheme",
+	"color_scheme": "Packages/Base16/base16-monokai.dark.tmTheme",
 	"draw_centered": true,
 	"extensions":
 	[
