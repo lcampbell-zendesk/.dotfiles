@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Base16/base16-monokai.dark.tmTheme",
-	"font_face": "Hack",
+	"font_face": "Input Mono Narrow",
 	"font_size": 14,
 	"ignored_packages":
 	[
