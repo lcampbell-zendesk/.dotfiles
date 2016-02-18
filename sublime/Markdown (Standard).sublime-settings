@@ -8,6 +8,8 @@
 		"markdown"
 	],
 	"line_numbers": true,
+	"line_padding_top": 3,
+	"line_padding_bottom": 3,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
