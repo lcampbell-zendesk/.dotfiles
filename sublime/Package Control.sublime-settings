@@ -7,7 +7,9 @@
 	[
 		"Babel",
 		"Base16 Color Schemes",
+		"ColorPicker",
 		"MarkdownEditing",
+		"nginx",
 		"Package Control",
 		"Pretty JSON",
 		"Theme - Spacegray"
