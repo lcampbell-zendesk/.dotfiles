@@ -1,0 +1,10 @@
+"*":
+  core:
+    themes: [
+      "nucleus-dark-ui"
+      "firewatch-syntax"
+    ]
+  "exception-reporting":
+    userId: "1f110895-7692-e118-68ee-683147ec8c12"
+  welcome:
+    showOnStartup: false
