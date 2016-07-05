@@ -9,4 +9,4 @@ ln -sf ~/.dotfiles/.config ~/
 ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/.gitignore_global ~/
 
-ln -sf ~/.dotfiles/sublime ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+ln -sf ~/.dotfiles/.atom ~/
