@@ -25,10 +25,10 @@
   untracked = cyan
 
 [core]
-  editor = /usr/bin/vi 
+	editor = /usr/local/bin/atom -w
   excludesfile = ~/.gitignore_global
   pager = less -r
-  
+
 [user]
   name = Daniel Bogan
   email = d@waferbaby.com
