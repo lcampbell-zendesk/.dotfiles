@@ -23,6 +23,8 @@ brew cask install font-mononoki
 
 brew cask install atom
 brew cask install iterm2
+brew cask install monolingual
+brew cask install slack
 
 # Make typing not suck.
 
