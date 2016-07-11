@@ -15,3 +15,7 @@ ln -sf ~/.dotfiles/.atom ~/
 
 brew cask install atom
 brew cask install iterm2
+
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
