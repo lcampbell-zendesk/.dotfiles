@@ -26,6 +26,7 @@ brew cask install atom
 brew cask install iterm2
 brew cask install launchbar
 brew cask install monolingual
+brew cask install moom
 brew cask install slack
 
 # Make typing not suck.
