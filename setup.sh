@@ -21,8 +21,10 @@ brew cask install font-mononoki
 
 # Install Mac apps.
 
+brew cask install appcleaner
 brew cask install atom
 brew cask install iterm2
+brew cask install launchbar
 brew cask install monolingual
 brew cask install slack
 
