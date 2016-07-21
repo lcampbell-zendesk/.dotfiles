@@ -3,7 +3,7 @@ HISTFILE=~/.zsh_history
 SAVEHIST=100
 
 export PATH="/usr/local/bin:$PATH"
-export EDITOR="/usr/local/bin/atom"
+export EDITOR="/usr/local/bin/subl"
 
 autoload -U colors
 autoload -U compinit
