@@ -26,6 +26,7 @@ brew cask install font-mononoki
 # Install Mac apps.
 
 brew cask install appcleaner
+brew cask install caffeine
 brew cask install gimp
 brew cask install iterm2
 brew cask install launchbar
@@ -40,8 +41,5 @@ brew cask install the-unarchiver
 # Make typing not suck.
 
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-defaults write NSGlobalDomain KeyRepeat -int 0
-defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
-ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
