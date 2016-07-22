@@ -1,6 +1,4 @@
 {
   "color_scheme": "Packages/Base16 Color Schemes/themes/base16-monokai.tmTheme",
-  "wrap_width": 120,
-  "highlight_line": true,
-
+  "wrap_width": 120
 }
