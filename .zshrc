@@ -13,8 +13,11 @@ autoload -U vcs_info
 colors
 compinit
 
-setopt HIST_IGNORE_DUPS
 setopt prompt_subst
+setopt hist_ignore_dups
+setopt appendhistory
+setopt sharehistory
+setopt incappendhistory
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' use-cache on
