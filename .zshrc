@@ -1,6 +1,6 @@
-HISTSIZE=100
+HISTSIZE=5000
 HISTFILE=~/.zsh_history
-SAVEHIST=100
+SAVEHIST=100000
 
 export PATH="/usr/local/bin:$PATH"
 export EDITOR="/usr/local/bin/subl"
