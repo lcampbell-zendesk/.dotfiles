@@ -1,6 +1,6 @@
-HISTSIZE=100
+HISTSIZE=5000
 HISTFILE=~/.zsh_history
-SAVEHIST=100
+SAVEHIST=100000
 
 export PATH="/usr/local/bin:$PATH"
 export EDITOR="/usr/local/bin/subl"
@@ -13,8 +13,11 @@ autoload -U vcs_info
 colors
 compinit
 
-setopt HIST_IGNORE_DUPS
 setopt prompt_subst
+setopt hist_ignore_dups
+setopt appendhistory
+setopt sharehistory
+setopt incappendhistory
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' use-cache on
