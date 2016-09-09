@@ -18,6 +18,10 @@ ln -sf ~/.dotfiles/.zshrc ~/
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# Install command line tools.
+
+brew install mosh
+
 # Install fonts.
 
 brew tap caskroom/fonts
@@ -38,7 +42,7 @@ brew cask install sublime-text
 brew cask install superduper
 brew cask install the-unarchiver
 
-# Make typing not suck.
+# Set some saner defaults.
 
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain KeyRepeat -int 0
