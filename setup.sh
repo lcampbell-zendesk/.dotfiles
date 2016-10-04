@@ -29,6 +29,7 @@ brew cask install font-mononoki
 
 # Install Mac apps.
 
+brew cask install 1password
 brew cask install appcleaner
 brew cask install caffeine
 brew cask install gimp
@@ -47,3 +48,9 @@ brew cask install the-unarchiver
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Setup the Dock as Dog intended.
+
+defaults write com.apple.dock orientation left
+defaults write com.apple.dock autohide -bool true
+killall Dock
