@@ -32,5 +32,3 @@ precmd() {
 }
 
 PROMPT='%{$fg_bold[blue]%}%n@%m%{$fg_bold[grey]%}>%{$reset_color%} %2c${vcs_info_msg_0_}%{$reset_color%} %% '
-
-for item in `ls ~/.zsh/`; do source ~/.zsh/$item; done
