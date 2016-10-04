@@ -49,7 +49,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-# Setup the Dock as Dog intended.
+# Set up the Dock as Dog intended.
 
 defaults write com.apple.dock orientation left
 defaults write com.apple.dock autohide -bool true
