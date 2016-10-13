@@ -19,6 +19,10 @@ setopt appendhistory
 setopt sharehistory
 setopt incappendhistory
 
+bindkey -e
+bindkey '\e\e[C' forward-word
+bindkey '\e\e[D' backward-word
+
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
