@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Base16 Color Schemes/themes/base16-monokai.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"font_face": "mononoki",
 	"font_size": 14,
 	"ignored_packages":
@@ -9,6 +9,7 @@
 		"Vintage"
 	],
 	"save_on_focus_lost": true,
+	"show_definitions": false,
 	"spacegray_sidebar_font_small": true,
 	"spacegray_sidebar_tree_small": true,
 	"spacegray_tabs_font_small": true,
@@ -18,5 +19,6 @@
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
 	"word_wrap": false
 }
