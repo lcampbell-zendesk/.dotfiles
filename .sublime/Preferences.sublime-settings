@@ -10,6 +10,7 @@
 	],
 	"save_on_focus_lost": true,
 	"show_definitions": false,
+	"spacegray_fileicons": true,
 	"spacegray_sidebar_font_small": true,
 	"spacegray_sidebar_tree_small": true,
 	"spacegray_tabs_font_small": true,
