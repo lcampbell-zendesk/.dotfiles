@@ -31,9 +31,11 @@ brew cask install font-mononoki
 
 brew cask install 1password
 brew cask install appcleaner
-brew cask install caffeine
+brew cask install coconutbattery
+brew cask install day-o
 brew cask install gimp
 brew cask install iterm2
+brew cask install keepingyouawake
 brew cask install launchbar
 brew cask install monolingual
 brew cask install moom
