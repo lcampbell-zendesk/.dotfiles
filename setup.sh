@@ -21,6 +21,7 @@ ln -sf ~/.dotfiles/.zshrc ~/
 # Install command line tools.
 
 brew install mosh
+brew install fish
 
 # Install fonts.
 
@@ -45,6 +46,10 @@ brew cask install steam
 brew cask install sublime-text
 brew cask install superduper
 brew cask install the-unarchiver
+
+# Switch shells.
+
+sudo chsh -s /usr/local/bin/fish $USER
 
 # Set some nice defaults.
 
