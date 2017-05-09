@@ -46,15 +46,28 @@ brew cask install sublime-text
 brew cask install superduper
 brew cask install the-unarchiver
 
-# Set some saner defaults.
+# Set some nice defaults.
 
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
-# Set up the Dock as Dog intended.
+# Tweak the Dock.
 
 defaults write com.apple.dock orientation left
 defaults write com.apple.dock autohide -bool true
 
+# Tweak iTerm.
+
+defaults write com.googlecode.iterm2 ShowPaneTitles 0
+defaults write com.googlecode.iterm2 SplitPaneDimmingAmount 0.1
+
+# Show the ~/Library folder.
+
+chflags nohidden ~/Library/
+
+# Restart the Dock and the UI server.
+
 killall Dock
+killall SystemUIServer
