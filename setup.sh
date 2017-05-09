@@ -31,6 +31,7 @@ brew cask install font-mononoki
 
 brew cask install 1password
 brew cask install appcleaner
+brew cask install battle-net
 brew cask install coconutbattery
 brew cask install day-o
 brew cask install gimp
@@ -55,4 +56,5 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 defaults write com.apple.dock orientation left
 defaults write com.apple.dock autohide -bool true
+
 killall Dock
