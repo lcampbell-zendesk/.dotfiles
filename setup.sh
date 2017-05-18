@@ -6,6 +6,7 @@ mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 
 # Symlink all the things.
 
+ln -sf ~/.dotfiles/.atom ~/
 ln -sf ~/.dotfiles/.config ~/
 ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/.gitignore_global ~/
