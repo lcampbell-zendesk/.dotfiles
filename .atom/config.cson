@@ -1,17 +1,23 @@
 "*":
-  "bracket-matcher": {}
   core:
     disabledPackages: [
-      "archive-view"
+      "autocomplete-atom-api"
+      "autocomplete-css"
+      "autocomplete-html"
+      "autocomplete-plus"
       "autocomplete-snippets"
+      "autoflow"
       "background-tips"
       "bookmarks"
+      "deprecation-cop"
+      "encoding-selector"
+      "exception-reporting"
+      "grammar-selector"
       "image-view"
       "language-c"
       "language-clojure"
       "language-coffee-script"
       "language-csharp"
-      "language-gfm"
       "language-go"
       "language-java"
       "language-less"
@@ -22,28 +28,23 @@
       "language-php"
       "language-property-list"
       "language-python"
-      "language-ruby-on-rails"
       "language-sass"
+      "language-todo"
       "language-toml"
+      "link"
       "markdown-preview"
       "metrics"
-      "open-on-github"
       "package-generator"
       "snippets"
+      "spell-check"
       "styleguide"
-      "symbols-view"
+      "timecop"
       "welcome"
       "wrap-guide"
-      "click-link"
     ]
-    themes: [
-      "nucleus-dark-ui"
-      "firewatch-syntax"
-    ]
+    telemetryConsent: "no"
   editor:
     fontFamily: "mononoki"
-    tabType: "soft"
+    fontSize: 13
   "exception-reporting":
-    userId: "1f110895-7692-e118-68ee-683147ec8c12"
-  welcome:
-    showOnStartup: false
+    userId: "31de6687-2e0a-4989-a725-a61eecfdda79"
