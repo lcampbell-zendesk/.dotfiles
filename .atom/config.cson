@@ -43,6 +43,9 @@
       "wrap-guide"
     ]
     telemetryConsent: "no"
+    themes: [
+      "monokai"
+    ]
   editor:
     fontFamily: "mononoki"
     fontSize: 13
