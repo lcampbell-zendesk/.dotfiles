@@ -48,3 +48,5 @@
     fontSize: 13
   "exception-reporting":
     userId: "31de6687-2e0a-4989-a725-a61eecfdda79"
+  welcome:
+    showOnStartup: false
