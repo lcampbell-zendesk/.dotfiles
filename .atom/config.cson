@@ -1,4 +1,6 @@
 "*":
+  autosave:
+    enabled: true
   core:
     disabledPackages: [
       "autocomplete-atom-api"
@@ -47,6 +49,10 @@
       "keybinding-resolver"
     ]
     telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-material-syntax"
+    ]
     titleBar: "custom"
   editor:
     fontFamily: "mononoki"
