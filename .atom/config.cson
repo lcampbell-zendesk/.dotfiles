@@ -41,15 +41,22 @@
       "timecop"
       "welcome"
       "wrap-guide"
+      "about"
+      "archive-view"
+      "dalek"
+      "keybinding-resolver"
     ]
     telemetryConsent: "no"
-    themes: [
-      "monokai"
-    ]
+    titleBar: "custom"
   editor:
     fontFamily: "mononoki"
     fontSize: 13
   "exception-reporting":
     userId: "31de6687-2e0a-4989-a725-a61eecfdda79"
+  "file-icons": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  "tree-view":
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
