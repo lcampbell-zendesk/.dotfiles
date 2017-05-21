@@ -47,6 +47,7 @@
       "archive-view"
       "dalek"
       "keybinding-resolver"
+      "language-gfm"
     ]
     telemetryConsent: "no"
     themes: [
@@ -59,7 +60,8 @@
     fontSize: 13
   "exception-reporting":
     userId: "31de6687-2e0a-4989-a725-a61eecfdda79"
-  "file-icons": {}
+  "file-icons":
+    coloured: false
   "git-diff":
     showIconsInEditorGutter: true
   "tree-view":
