@@ -1,4 +1,6 @@
-set fish_user_paths $fish_user_paths /usr/local/bin/
 set fish_greeting
 
-set -x EDITOR /usr/local/bin/atom
+set -g fish_user_paths "/usr/local/bin" "/usr/local/sbin" "$HOME/.rbenv/shims" $fish_user_paths
+set -x EDITOR /usr/local/bin/subl
+
+rbenv rehash >/dev/null ^&1
