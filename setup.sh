@@ -21,7 +21,7 @@ ln -sf ~/.dotfiles/.zshrc ~/
 
 # Install command line tools.
 
-brew install mosh
+brew install rbenv
 brew install fish
 
 # Install fonts.
