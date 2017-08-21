@@ -54,20 +54,24 @@ sudo chsh -s /usr/local/bin/fish $USER
 
 # Set some nice defaults.
 
+defaults write NSGlobalDomain AppleInterfaceStyle 'Dark'
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write NSGlobalDomain AppleShowAllExtensions -int 1
 defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
 # Tweak the Dock.
 
-defaults write com.apple.dock orientation left
 defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock orientation left
+defaults write com.apple.dock wvous-br-corner -int 5
+defaults write com.apple.dock wvous-tr-corner -int 4
 
 # Tweak iTerm.
 
-defaults write com.googlecode.iterm2 ShowPaneTitles 0
-defaults write com.googlecode.iterm2 SplitPaneDimmingAmount 0.1
+defaults write com.googlecode.iterm2 ShowPaneTitles -int 0
+defaults write com.googlecode.iterm2 SplitPaneDimmingAmount -int 0.1
 
 # Show the ~/Library folder.
 
