@@ -5,7 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Base16 Color Schemes",
+		"Boxy Theme",
 		"GitGutter",
 		"MagiclessQuotes",
 		"MarkdownEditing",
