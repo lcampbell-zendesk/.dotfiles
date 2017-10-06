@@ -6,14 +6,12 @@ mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 
 # Symlink all the things.
 
-ln -sf ~/.dotfiles/.atom ~/
 ln -sf ~/.dotfiles/.config ~/
 ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/.gitignore_global ~/
 ln -sf ~/.dotfiles/.sublime ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -sf ~/.dotfiles/.vimrc ~/
 ln -sf ~/.dotfiles/.vim ~/
-ln -sf ~/.dotfiles/.zshrc ~/
 
 # Install homebrew.
 
