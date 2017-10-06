@@ -40,6 +40,7 @@ brew cask install keepingyouawake
 brew cask install launchbar
 brew cask install monolingual
 brew cask install moom
+brew cask install resilio-sync
 brew cask install slack
 brew cask install steam
 brew cask install sublime-text
