@@ -1,8 +1,8 @@
 {
-	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-monokai.tmTheme",
-	"extensions":
-	[
-		"markdown"
-	],
-	"wrap_width": 120
+  "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+  "extensions":
+  [
+    "markdown"
+  ],
+  "wrap_width": 120
 }
