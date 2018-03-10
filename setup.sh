@@ -19,8 +19,9 @@ ln -sf ~/.dotfiles/.vim ~/
 
 # Install command line tools.
 
-brew install rbenv
 brew install fish
+brew install mas
+brew install rbenv
 
 # Install fonts.
 
@@ -34,6 +35,7 @@ brew cask install appcleaner
 brew cask install battle-net
 brew cask install coconutbattery
 brew cask install day-o
+brew cask install discord
 brew cask install gimp
 brew cask install iterm2
 brew cask install keepingyouawake
@@ -46,6 +48,9 @@ brew cask install steam
 brew cask install sublime-text
 brew cask install superduper
 brew cask install the-unarchiver
+
+mas lucky tweetbot
+mas lucky reeder
 
 # Switch shells.
 
